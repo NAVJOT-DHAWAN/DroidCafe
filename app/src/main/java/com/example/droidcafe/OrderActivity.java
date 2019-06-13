@@ -13,7 +13,7 @@ public class OrderActivity extends AppCompatActivity {
         setContentView(R.layout.activity_order);
 
         Intent intent = getIntent();
-        String message = "Order:" +intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
+        String message = "Order: " +intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
 
         TextView text = findViewById(R.id.order_textview);
         text.setText(message);
