@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckBox"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/syrup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chk_syr"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <CheckBox
+        android:id="@+id/sprinkle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sprink"
+        android:layout_marginLeft="20dp" />
+
+    <CheckBox
+        android:id="@+id/nuts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/crushed"
+        android:layout_marginLeft="20dp" />
+
+    <CheckBox
+        android:id="@+id/cherry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cherries"
+        android:layout_marginLeft="20dp" />
+
+    <CheckBox
+        android:id="@+id/ore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/crumbles"
+        android:layout_marginLeft="20dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/toast"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:onClick="launch"/>
+
+</LinearLayout>
