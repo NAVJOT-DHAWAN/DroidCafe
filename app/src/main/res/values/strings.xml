@@ -31,5 +31,12 @@
         <item>Mobile</item>
         <item>Other</item>
     </string-array>
+
+    <string name="chk_syr">Chocolate Syrup</string>
+    <string name="sprink">Sprinkles</string>
+    <string name="crushed">Crushed Nuts</string>
+    <string name="cherries">Cherries</string>
+    <string name="crumbles">Oreo Cookie Crumbles</string>
+    <string name="toast">SHOW TOAST"></string>
 </resources>
 
