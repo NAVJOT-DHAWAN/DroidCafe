@@ -79,4 +79,11 @@ public class OrderActivity extends AppCompatActivity implements AdapterView.OnIt
     public void onNothingSelected(AdapterView<?> parent) {
 
     }
+
+    public void launch(View view) {
+
+        Intent i = new Intent(OrderActivity.this,CheckBox.class);
+        startActivity(i);
+
+    }
 }
