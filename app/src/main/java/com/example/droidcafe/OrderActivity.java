@@ -26,7 +26,8 @@ public class OrderActivity extends AppCompatActivity {
     public void onRadioButtonClicked(View view) {
 
         boolean checked = ((RadioButton)view).isChecked();
-
+       // RadioButton r = findViewById(R.id.nextday);
+        //r.setChecked(true);
         switch(view.getId()){
 
             case R.id.sameday:
