@@ -10,5 +10,7 @@
     <string name="ice_cream_order_message">You ordered an ice cream sandwich.</string>
     <string name="froyo_order_message">You ordered a FroYo.</string>
     <string name="change_dessert">Change dessert</string>
+    <string name="action_profile">Profile</string>
+    <string name="action_notification">Notifications</string>
 </resources>
 
