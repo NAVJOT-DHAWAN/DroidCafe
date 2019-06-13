@@ -12,5 +12,17 @@
     <string name="change_dessert">Change dessert</string>
     <string name="action_profile">Profile</string>
     <string name="action_notification">Notifications</string>
+    <string name="name_label_text">Name</string>
+    <string name="hintName">Enter your name</string>
+    <string name="address_label_text">Address</string>
+    <string name="hintAdd">Enter Address</string>
+    <string name="phone_label_text">Phone</string>
+    <string name="hintphone">Enter Phone</string>
+    <string name="note_label_text">Note</string>
+    <string name="hintnote">Enter note</string>
+    <string name="delivery_label_text">Choose a delievery method:</string>
+    <string name="same">Same day messenger service</string>
+    <string name="next">Next day ground delivery</string>
+    <string name="pick">Pick up</string>
 </resources>
 
