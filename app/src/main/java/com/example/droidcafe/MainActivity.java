@@ -15,7 +15,7 @@ public  class MainActivity extends AppCompatActivity {
 
     public String mOrderMessage;
     public static final String EXTRA_MESSAGE =
-            "com.example.droidcafe.extra.MESSAGE";
+            "com.example.android.droidcafe.extra.MESSAGE";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
