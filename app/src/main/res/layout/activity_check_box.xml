@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CheckBox"
+    tools:context=".CheckBox1"
     android:orientation="vertical">
 
     <CheckBox
@@ -38,7 +38,7 @@
         android:layout_marginLeft="20dp" />
 
     <CheckBox
-        android:id="@+id/ore"
+        android:id="@+id/oreo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/crumbles"
@@ -50,7 +50,6 @@
         android:layout_height="wrap_content"
         android:text="@string/toast"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
-        android:onClick="launch"/>
+        android:layout_marginTop="10dp" />
 
 </LinearLayout>
