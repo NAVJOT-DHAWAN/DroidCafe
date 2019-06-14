@@ -47,8 +47,22 @@ public  class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-        if(id == R.id.action_order){
-            return true;
+        switch (id){
+            case R.id.action_order:
+                displayToast(getString(R.string.action_order_message));
+                return true;
+
+            case R.id.action_status:
+                displayToast(getString(R.string.action_status_message));
+                return true;
+
+            case R.id.action_favorites:
+                displayToast(getString(R.string.action_favorites_message));
+                return true;
+
+            case R.id.action_contact:
+                displayToast(getString(R.string.action_contact_message));
+                return true;
         }
 
         return super.onOptionsItemSelected(item);
