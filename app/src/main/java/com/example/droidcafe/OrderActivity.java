@@ -82,7 +82,7 @@ public class OrderActivity extends AppCompatActivity implements AdapterView.OnIt
 
     public void launch(View view) {
 
-        Intent i = new Intent(OrderActivity.this,CheckBox.class);
+        Intent i = new Intent(OrderActivity.this,CheckBox1.class);
         startActivity(i);
 
     }
