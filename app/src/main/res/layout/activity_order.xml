@@ -183,6 +183,7 @@
         android:layout_marginBottom="24dp"
         android:text="EXTRAS"
         android:textStyle="bold"
-        android:background="@color/colorAccent" />
+        android:background="@color/colorAccent"
+        android:onClick="launch"/>
 
 </android.support.constraint.ConstraintLayout>
